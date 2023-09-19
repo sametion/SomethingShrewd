@@ -1,0 +1,17 @@
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\bin\Debug\net6.0\Business.deps.json
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\bin\Debug\net6.0\Business.dll
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\bin\Debug\net6.0\Business.pdb
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\bin\Debug\net6.0\DataAccess.dll
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\bin\Debug\net6.0\Entities.dll
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\bin\Debug\net6.0\Entities.pdb
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\obj\Debug\net6.0\Business.dll
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\samet\source\repos\MyShrewdOneProject\Business\obj\Debug\net6.0\ref\Business.dll
