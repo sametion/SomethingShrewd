@@ -3,6 +3,7 @@ using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -29,8 +30,24 @@ namespace DataAccess.Concrete.InMemory
 
         public void Delete(Product product)
         {
-            Product productToDelete=_products.SingleOrDefault(p=>p.ProductId==product.ProductId);  //lINQ
+            /*  sıradan bir veri siler gibi silemezsin. silmek istediğin bir referans ,bir dizi elemanı
+               Product productTODelete = null;
+              foreach (Product item in _products)   
+              { 
+                  if(productTODelete.ProductId==item.ProductId)
+                  { productTODelete= item; }
             _products.Remove(productToDelete);
+
+              }*/
+
+            //lINQ kullanarak
+            Product productToDelete =_products.SingleOrDefault(p=>p.ProductId==product.ProductId);  //p diziyi tektek dolaşan takma isim forecahdekigibi
+            _products.Remove(productToDelete);
+        }
+
+        public Product Get(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Product> GetAll()
@@ -38,13 +55,19 @@ namespace DataAccess.Concrete.InMemory
             return _products;
         }
 
-        public List<Product> GetAllByCategory(int categoryID)
+        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Product> GetAllByCategory(int categoryID)           //category ıd ye göre sınıflnayıp yeni bir liste döndürür
         {
             return _products.Where(p=>p.CategoryId==categoryID).ToList();
         }
 
         public void Update(Product product)
         {
+            // gönderdiğim product ıd sine sahip ürünü listeden bul
             Product productToUpdate = _products.SingleOrDefault(p => p.ProductId == product.ProductId); 
             productToUpdate.ProductName= product.ProductName;
             productToUpdate.UnitPrice= product.UnitPrice;
